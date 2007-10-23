@@ -1,0 +1,4 @@
+category: Net Perl
+requires: cygwin libGeoIP1 perl
+sdesc: "Perl GeoIP bindings"
+ldesc: "Perl bindings for the MaxMind GeoIP database."

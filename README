@@ -1,0 +1,71 @@
+perl-Geo-IP
+------------------------------------------
+Perl bindings for the MaxMind GeoIP database.
+
+Runtime requirements:
+  cygwin-1.5.24-1
+  libGeoIP1-1.4.3-1
+  perl-5.8.8-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-1
+  binutils-20060817-1
+  cygport-0.3.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.8-4
+
+Canonical website:
+  http://www.maxmind.com/app/perl
+  http://search.cpan.org/dist/Geo-IP/
+
+Canonical download:
+  http://www.maxmind.com/download/geoip/api/perl/
+  http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Geo-IP-1.28-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Geo-IP-1.28-X.cygport all
+
+This will create:
+  /usr/src/perl-Geo-IP-1.28-X-src.tar.bz2
+  /usr/src/perl-Geo-IP-1.28-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Geo-IP.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Geo/IP.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Geo/IP/Record.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Geo/IP/Record.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Geo/Mirror.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Geo/IP/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Geo/IP/IP.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Geo/IP/IP.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Geo/IP/libIP.dll.a
+  /usr/share/doc/Cygwin/perl-Geo-IP-1.28.README
+  /usr/share/doc/perl-Geo-IP-1.28/Changes
+  /usr/share/doc/perl-Geo-IP-1.28/INSTALL
+  /usr/share/doc/perl-Geo-IP-1.28/README
+  /usr/share/man/man3/Geo.IP.3pm.gz
+  /usr/share/man/man3/Geo.IP.Record.3pm.gz
+  /usr/share/man/man3/Geo.Mirror.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Geo-IP.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.28-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
