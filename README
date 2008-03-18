@@ -4,7 +4,7 @@ Perl bindings for the MaxMind GeoIP database.
 
 Runtime requirements:
   cygwin-1.5.25-7
-  libGeoIP1-1.4.3-1
+  libGeoIP1-1.4.4-1
   perl-5.10.0-3
 
 Build requirements:
