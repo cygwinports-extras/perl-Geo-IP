@@ -1,0 +1,11 @@
+CPAN_AUTHOR=tjmather
+inherit perl
+
+HOMEPAGE="http://www.maxmind.com/app/perl"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	# if LIBS is undefined,  Makefile.PL looks for libGeoIP.dll in /usr/lib
+	perl_compile LIBS="-lGeoIP"
+}

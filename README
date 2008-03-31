@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Geo-IP-1.30-X-src.tar.bz2
+  unpack perl-Geo-IP-1.31-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Geo-IP-1.30-X.cygport all
+  cygport ./perl-Geo-IP-1.31-X.cygport all
 
 This will create:
-  /usr/src/perl-Geo-IP-1.30-X-src.tar.bz2
-  /usr/src/perl-Geo-IP-1.30-X.tar.bz2
+  /usr/src/perl-Geo-IP-1.31-X-src.tar.bz2
+  /usr/src/perl-Geo-IP-1.31-X.tar.bz2
 
 -------------------------------------------
 
@@ -45,9 +45,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Geo/Mirror.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Geo/IP/.packlist
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Geo/IP/IP.dll
-  /usr/share/doc/perl-Geo-IP-1.30/Changes
-  /usr/share/doc/perl-Geo-IP-1.30/INSTALL
-  /usr/share/doc/perl-Geo-IP-1.30/README
+  /usr/share/doc/perl-Geo-IP-1.31/Changes
+  /usr/share/doc/perl-Geo-IP-1.31/INSTALL
+  /usr/share/doc/perl-Geo-IP-1.31/README
   /usr/share/man/man3/Geo.IP.3pm.gz
   /usr/share/man/man3/Geo.IP.Record.3pm.gz
   /usr/share/man/man3/Geo.Mirror.3pm.gz
@@ -56,8 +56,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.30-2 -----
-Rebuilt for perl-5.10.
+----- version 1.31-1 -----
+Version bump, built for perl-5.10.
 
 ----- version 1.30-1 -----
 Version bump.
