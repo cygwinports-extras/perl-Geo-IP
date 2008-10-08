@@ -1,4 +1,4 @@
-CPAN_AUTHOR=tjmather
+CPAN_AUTHOR=borisz
 inherit perl
 
 HOMEPAGE="http://www.maxmind.com/app/perl"
